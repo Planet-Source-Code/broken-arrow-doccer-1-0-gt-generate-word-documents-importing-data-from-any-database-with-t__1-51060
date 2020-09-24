@@ -1,0 +1,13 @@
+[Database]
+DatabaseType=0
+MSAccessDatabase=E:\Joy's Documents\Project\docCER\Client.mdb
+SQL=qryProductUpgradeDemonstrationInvitation
+FROM tblProduct AS P RIGHT JOIN (tblClient AS C RIGHT JOIN tblClientProduct AS CP ON C.ClientID = CP.ClientID) ON P.ProductID = CP.ProductID
+
+FROM tblProduct AS P RIGHT JOIN (tblClient AS C RIGHT JOIN tblClientProduct AS CP ON C.ClientID = CP.ClientID) ON P.ProductID = CP.ProductID
+FROM tblProduct AS P RIGHT JOIN (tblClient AS C RIGHT JOIN tblClientProduct AS CP ON C.ClientID = CP.ClientID) ON P.ProductID = CP.ProductID
+MSSQLServerDatabase=E:\Joy's Documents\Project\docCER\Client.mdb
+[Setting]
+RecordSelectionType=2
+FieldEncloser=%
+WordTemplate=E:\Joy's Documents\Project\docCER\Product demonstration invitation.doc
